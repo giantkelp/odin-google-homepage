@@ -1,5 +1,6 @@
 body{
     font-family: arial,sans-serif;
+    font-size:small;
 }
 #navbar{
     top:0;
@@ -24,6 +25,19 @@ body{
 }
 #apps:hover{
     opacity: .85;
+}
+#logo{
+    margin-top:47px;
+    height:233px;
+   
+}
+#google{
+    padding-top:109px;
+    height:92px;
+    width:272px;
+}
+#centre{
+    text-align:center;
 }
 #fbar{
     background:#f2f2f2;
