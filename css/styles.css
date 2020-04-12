@@ -39,6 +39,132 @@ body{
 #centre{
     text-align:center;
 }
+#box{
+    margin-top:0;
+    position:absolute;
+    width:100%;
+    top:269px;
+    padding-top:6px;
+}
+#form-cont{
+    margin: 0 auto;
+}
+#cnt{
+    flex:1;
+    display:flex;
+    padding:5px 8px 0 16px;
+    padding-left:14px;
+    margin-bottom:3px;
+}
+#search{
+    background:#fff;
+    display:flex;
+    flex:1;
+    height:44px;
+    width:582px;  
+    border:1px solid #dfe1e5;
+    border-radius:24px;
+    margin: 0 auto;  
+}
+#search:hover{
+    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color:rgba(223,225,229,0);
+
+}
+#enc{
+    align-items: center;
+    margin:auto;
+    padding-right:13px;
+}
+
+#lens{
+    height:100%;
+    width:100%;
+    display:block;
+    margin-top: 3px;
+    color:#9AA0A6;
+    height:20px;
+    width:20px;
+    display:inline-block;
+    position:relative;
+    fill:currentColor;
+    line-height: 24px;
+    margin:auto;
+}
+#voice{
+    display:flex;
+    flex: 1 0 auto;
+    padding:0 8px;
+    line-height: 44px;
+    height: 44px;
+    align-items: center;
+    vertical-align:middle;
+    margin-top:-3px;
+}
+#fld{
+    width:488px;
+}
+#field{
+    display:flex;
+    flex-wrap:wrap;
+    flex:1;
+    width:488px;
+}
+#tex{
+    border:none;
+    margin:0;
+    padding:0;
+    color:rgba(0,0,0,.87);
+    display:flex;
+    flex:100%;
+    outline:none;
+    height:34px !important;
+    font: 16px arial,sans-serif;
+    cursor:text;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+#mic{
+    background-image:url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size:24px;
+    height:24px;
+    width:24px;
+    vertical-align:middle;
+    cursor:pointer;
+    margin-bottom:3px;
+}
+#buttons{
+    width:571px;
+    height:70px;
+    padding-top:18px;
+    top:53px;
+    z-index:0;
+    margin:0 auto;
+}
+#buttons input{
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    border-radius:4px;
+    color: #5f6368;
+    margin:11px 4px;
+    padding: 0 16px;
+    cursor:pointer;
+    user-select: none;
+    min-width: 54px;
+    font-size:14px;
+    height:36px;
+}
+#buttons input:hover{
+    color: #222;
+    border: 1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+}
+#buttons p{
+    margin-right:13px;
+}
 #regional{
     font-size:small;
     margin-bottom:24px;
