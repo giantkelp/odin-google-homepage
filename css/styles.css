@@ -39,6 +39,26 @@ body{
 #centre{
     text-align:center;
 }
+#regional{
+    font-size:small;
+    margin-bottom:24px;
+    margin-top:12px;
+}
+#lang{
+    line-height:28px;
+}
+#lang a{
+    text-decoration: none;
+    padding-left:3px;
+    padding-right:3px;
+    color:#1a0dab;
+}
+#lang a:hover{
+    text-decoration: underline;
+}
+#lang a:visited{
+    color:#609;
+}
 #fbar{
     background:#f2f2f2;
     line-height:40px;
